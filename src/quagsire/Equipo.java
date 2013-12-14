@@ -72,7 +72,6 @@ public class Equipo {
     }
 
     public Equipo(String codigo, String tipoEquipo, String tipo, String clase, Double tension, String estilo, String color, String talla, String longitud, boolean perforacion, boolean inflado) {
-        this.codigo = codigo;
         this.tipoEquipo = tipoEquipo;
         this.tipo = tipo;
         this.clase = clase;
@@ -83,6 +82,8 @@ public class Equipo {
         this.longitud = longitud;
         this.perforacion = perforacion;
         this.inflado = inflado;
+        
+        String letratipo = tipoEquipo.substring(0,0);
     }
     
     
