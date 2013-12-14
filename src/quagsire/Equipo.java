@@ -85,6 +85,11 @@ public class Equipo {
         
         String letratipo = tipoEquipo.substring(0,0);
     }
+
+    public void setEnsayo(Double tension, Double tensionEnsayo, Double corrienteFugaMax, Double corrienteFugaMedia, Double temperatura, Double humedad, String tiempo, String observaciones) {
+        Ensayo ens= new Ensayo (tension, tensionEnsayo, corrienteFugaMax, corrienteFugaMedia, temperatura, humedad, tiempo, observaciones);
+        
+    }
     
     
     
