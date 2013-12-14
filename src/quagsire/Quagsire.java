@@ -6,7 +6,7 @@ package quagsire;
 
 /**
  *
- * @author Roberto
+ * @author Jaime
  */
 public class Quagsire {
 
